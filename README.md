@@ -5,6 +5,7 @@ This repository contains my code for various data structures and algorithms.
 ## Table of Contents
 
 - [Introduction](#introduction)
+- [Order of Review](#order)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
@@ -14,7 +15,7 @@ This repository contains my code for various data structures and algorithms.
 
 In this repository, you will find implementations of various data structures and algorithms. These implementations are written in different programming languages and are meant to serve as a reference for anyone interested in learning or reviewing these concepts.
 
-## Order of Review
+## Order
 - Arrays
 - Structures
 - Pointers
