@@ -19,6 +19,7 @@ In this repository, you will find implementations of various data structures and
 - Structures
 - Pointers
 - References
+- Pointer to a Structure
 
 ## Installation
 
