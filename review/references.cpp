@@ -25,7 +25,7 @@ int main() {
     r++; // increment the value of x using the reference r
     cout << "Value of x after incrementing r: " << x << endl;
     x++; // increment the value of x directly
-    cout << "Value of x after incrementing x: " << x << endl;
+    cout << "Value of r after incrementing x: " << r << endl;
 
     int b = 20;
     r = b;  // assign the value of b to x using the reference r; don't get tricked into thinking that r is now a reference to b, 

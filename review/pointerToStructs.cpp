@@ -8,16 +8,22 @@ struct rectangle {
     int breadth;
 };
 
+// let's create a struct for volume of a cone
+struct cone {
+    float radius;
+    float height;
+};
+
 int main() {
-    struct rectangle rec = {10, 5};
+    struct cone c = {3.0, 4.0};
 
     // the direct way to access the struct members is by using the dot operator
-    cout << "Length of rectangle: " << rec.length << endl;
-    cout << "Area of rectangle: " << rec.length * rec.breadth << endl;
+    cout << "Radius of cone: " << c.radius << endl;
+    cout << "Volume of cone: " << 3.14 * c.radius * c.radius * c.height / 3 << endl;
 
     // the pointer way to access the struct members is by using the arrow operator
-    struct rectangle *p = &rec;
-    cout << "Breath of rectangle: " << p->breadth << endl;
+    struct cone *p = &c;
+    cout << "Height of cone: " << p->height << endl;
 
     struct rectangle *q;
     // to create an object of type struct rectangle in the heap memory and have q point to it

@@ -16,7 +16,7 @@ using namespace std;
     Any variables defined within a function are stored in the stack memory.
     To store data in the heap memory, we use the malloc() function.
     
-    The malloc() function returns a void pointer to the memory location in the heap memory. 
+    The malloc() function returns a void pointer to the location in heap memory. 
     So we need to typecast it to the appropriate data type.
     eg: int *p = (int *)malloc(5*sizeof(int)); // p is a pointer to an integer array of size 5 --> the syntax is C-style
 
@@ -25,8 +25,7 @@ using namespace std;
 
 */
 
-struct rectangle
-{
+struct rectangle {
     int length;
     int breadth;
 };
@@ -51,7 +50,7 @@ int main() {
     cout << "Size of float pointer: " << sizeof(float *) << endl;
     cout << "Size of double pointer: " << sizeof(double *) << endl;
 
-    struct rectangle *stp; // initialize a pointer to a struct
+    struct rectangle *stp; // declare a pointer to a struct
     cout << "Size of struct pointer: " << sizeof(stp) << endl;
 
 
