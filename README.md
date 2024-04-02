@@ -21,6 +21,10 @@ In this repository, you will find implementations of various data structures and
 - Pointers
 - References
 - Pointer to a Structure
+- Functions 
+- Parameter Passing
+- Arrays as Parameter
+- Structs as Parameter
 
 ## Installation
 
