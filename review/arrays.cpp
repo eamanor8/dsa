@@ -7,7 +7,7 @@ int main() {
     cout << "Size of arr[] is " << sizeof(arr) << " bytes\n" << endl;
     //Note: sizeof(arr) = 5 * sizeof(int) = 5 * 4 = 20 bytes
 
-    // Accessing elements of an array using a normal for loop
+    // Accessing elements of an array using a normal for-loop
     for(int i = 0; i < 5; i++) {
         cout << arr[i] << " ";
     }
