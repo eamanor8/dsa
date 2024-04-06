@@ -1,0 +1,15 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ed/Code/dsa/recursion/staticGlobal'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __Z5func1i, symObjAddr: 0x0, symBinAddr: 0x100003CA0, symSize: 0x58 }
+  - { offsetInCU: 0x33, offset: 0x33, size: 0x8, addend: 0x0, symName: __Z5func2i, symObjAddr: 0x58, symBinAddr: 0x100003CF8, symSize: 0x70 }
+  - { offsetInCU: 0x5C, offset: 0x5C, size: 0x8, addend: 0x0, symName: __ZZ5func2iE1x, symObjAddr: 0x13564, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x464F, offset: 0x464F, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x14C, symBinAddr: 0x100003DEC, symSize: 0x58 }
+  - { offsetInCU: 0x468F, offset: 0x468F, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x228, symBinAddr: 0x100003EC8, symSize: 0x2C }
+  - { offsetInCU: 0x6FA2, offset: 0x6FA2, size: 0x8, addend: 0x0, symName: __Z5func1i, symObjAddr: 0x0, symBinAddr: 0x100003CA0, symSize: 0x58 }
+  - { offsetInCU: 0x6FCE, offset: 0x6FCE, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC8, symBinAddr: 0x100003D68, symSize: 0x58 }
+  - { offsetInCU: 0x70B1, offset: 0x70B1, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x120, symBinAddr: 0x100003DC0, symSize: 0x2C }
+  - { offsetInCU: 0x70E3, offset: 0x70E3, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x1A4, symBinAddr: 0x100003E44, symSize: 0x84 }
+  - { offsetInCU: 0x714F, offset: 0x714F, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x254, symBinAddr: 0x100003EF4, symSize: 0x38 }
+...

@@ -25,6 +25,7 @@ In this repository, you will find implementations of various data structures and
 - Parameter Passing
 - Arrays as Parameter
 - Structs as Parameter
+- Recursion
 
 ## Installation
 
