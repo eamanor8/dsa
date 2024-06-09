@@ -27,6 +27,9 @@ In this repository, you will find implementations of various data structures and
 - Structs as Parameter
 - Recursion
 - Arrays
+- Strings
+- Matrices
+- Linked List
 
 ## Installation
 
