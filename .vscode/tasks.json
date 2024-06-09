@@ -5,6 +5,9 @@
             "label": "C/C++: clang++ build active file",
             "command": "/usr/bin/clang++",
             "args": [
+                "-Wall",
+                "-Wextra",
+                "-pedantic",
                 "-fcolor-diagnostics",
                 "-fansi-escape-codes",
                 "-g",
