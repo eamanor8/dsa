@@ -30,6 +30,8 @@ In this repository, you will find implementations of various data structures and
 - Strings
 - Matrices
 - Linked List
+- Stack
+- Queue
 
 ## Installation
 
