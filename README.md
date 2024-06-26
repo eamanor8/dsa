@@ -32,6 +32,7 @@ In this repository, you will find implementations of various data structures and
 - Linked List
 - Stack
 - Queue
+- Trees
 
 ## Installation
 
