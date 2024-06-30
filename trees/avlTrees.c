@@ -19,7 +19,7 @@ struct Node {
     int data;
     int height;
     struct Node *rChild;
-} *root=NULL ;
+} *root=NULL;
 
 int nodeHeight(struct Node *p){
     int hl, hr;
@@ -133,7 +133,7 @@ struct Node * rInsertAVL(struct Node *p, int newData){
     return p;
 }
 
-int main(){
+int main(void){
 
     root = rInsertAVL(root, 10);
     rInsertAVL(root, 5);
