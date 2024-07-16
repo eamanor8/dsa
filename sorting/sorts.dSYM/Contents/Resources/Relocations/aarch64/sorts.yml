@@ -1,0 +1,9 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ed/Code/dsa/sorting/sorts'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _Swap, symObjAddr: 0x0, symBinAddr: 0x100003D1C, symSize: 0x3C }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _Swap, symObjAddr: 0x0, symBinAddr: 0x100003D1C, symSize: 0x3C }
+  - { offsetInCU: 0x81, offset: 0x81, size: 0x8, addend: 0x0, symName: _BubbleSort, symObjAddr: 0x3C, symBinAddr: 0x100003D58, symSize: 0x114 }
+  - { offsetInCU: 0xDD, offset: 0xDD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x150, symBinAddr: 0x100003E6C, symSize: 0xE0 }
+...
