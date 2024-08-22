@@ -33,6 +33,8 @@ In this repository, you will find implementations of various data structures and
 - Stack
 - Queue
 - Trees
+- Sorting
+- Hashing
 
 ## Installation
 
